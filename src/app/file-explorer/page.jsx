@@ -8,8 +8,6 @@ import explorer from "../../data/fileExplorerData";
 const FIleExplorer = () => {
   const [explorerData, setExplorerData] = useState(explorer);
 
-  //   console.log(explorerData);
-
   const { insertNode } = useTraverseTree();
 
   const handleInsertNode = (folderId, item, isFolder) => {
