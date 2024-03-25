@@ -13,6 +13,13 @@ const projectsData = [
         path: "/pagination",
         date: "25-03-2024",
     },
+    {
+        id: 3,
+        title: "EMI Calculator",
+        description: "React Interview Question on creating EMI Calculator will be created here, along with tips and tricks to tackle your React JS and JavaScript Questions in Frontend Machine Coding Interviews.",
+        path: "/emi-calulator",
+        date: "25-03-2024",
+    },
 ];
 
 export default projectsData;

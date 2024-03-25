@@ -1,4 +1,4 @@
-import projectsData from "@/data/projectsData";
+import projectsData from "../data/projectsData";
 
 export default function Home() {
   return (

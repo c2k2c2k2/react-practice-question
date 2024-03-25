@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 
-import { Folder } from "@/components/file-explorer/Folder";
-import useTraverseTree from "@/hooks/use-traverse-tree";
-import explorer from "@/data/fileExplorerData";
+import { Folder } from "../../components/file-explorer/Folder";
+import useTraverseTree from "../../hooks/use-traverse-tree";
+import explorer from "../../data/fileExplorerData";
 
 const FIleExplorer = () => {
   const [explorerData, setExplorerData] = useState(explorer);
